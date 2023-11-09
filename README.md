@@ -23,7 +23,7 @@ Each package is named after the design pattern it implements.
 In this directory, you can find examples of some uml diagrams.
 
 In the **exercises** folder, there are the solutions to some exercises taken from the slides that have not been discussed in class.
-Each package under exercises is named after the uml diagram that contains.
+Each package under exercises is named after the uml diagram that it contains.
 
 In the **exams** folder, there are the solutions to some past exams; each subfolder represents a past exam and is named after its date.
 Within each subfolder, you can find the corresponding uml diagrams, each named after its type.
