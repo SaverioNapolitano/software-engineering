@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+class Company {
+    +countEmployee()
+}
+class Branch {
+    -budget: float
+    +paySalary()
+}
+class Employee {
+    -salary: float
+    +changeBranch(branch: Branch)
+    +fire()
+    +resign()
+}
+class Technician {
+    +calculateSalary()
+    +changeTask()
+}
+class OfficeWorker {
+    +calculateSalary()
+    +career()
+}
+
+Employee ^-- Technician
+Employee ^-- OfficeWorker
+Company "1" <-- "*" Branch
+Branch "1" <-- "1..*" Employee
+@enduml

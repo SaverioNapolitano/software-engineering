@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/use-case-diagram'
+
+Employee -- (Registration vehicle data)
+(Registration vehicle data) .> (Registration owner data): include
+Employee -- (Deliver vehicle)
+Employee -- (Query fixing archive)
+(Release warranty) .> (Deliver vehicle): extend
+Manager -- (Deliver vehicle)
+Manager -- (Release warranty)
+Manager -- (Query and modify employee data)
+:Marketing Office: -- (Access customer data)
+:Marketing Office: -- (Communication to customer)
+Customer -- (Communication to customer)
+Customer -- (Registration owner data)
+Customer -- (Deliver vehicle)
+@enduml
