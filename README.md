@@ -9,6 +9,7 @@ In this repository, you can find my exercises for the software engineering exam:
 
 * [designPatterns](#design-patterns)
 * [uml](#uml-diagrams)
+* [requirements]
 
 ## Design patterns
 
@@ -28,4 +29,15 @@ Each package under exercises is named after the uml diagram that it contains.
 In the **exams** folder, there are the solutions to some past exams; each subfolder represents a past exam and is named after its date.
 Within each subfolder, you can find the corresponding uml diagrams, each named after its type.
 
+## Requirements
+
+The project is made using: 
+
+* IntelliJ Community Edition
+* Java 17
+
+To see the uml diagrams properly you will need some plugins:
+
+* diagrams.net (formerly draw.io) plugin
+* plantuml plugin 
 
