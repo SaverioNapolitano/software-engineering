@@ -36,7 +36,7 @@ The project is made using:
 * IntelliJ Community Edition
 * Java 17
 
-To see the uml diagrams properly you will need some plugins:
+To see the uml diagrams properly you will need additional plugins:
 
 * diagrams.net (formerly draw.io) plugin
 * plantuml plugin 
